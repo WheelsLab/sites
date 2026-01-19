@@ -144,7 +144,7 @@ const config = {
                 label: '杂项'
               },
               {
-                to: 'docs/about-this-site',
+                to: '/about-this-site',
                 label: '关于本站',
               },
             ]
