@@ -130,6 +130,11 @@ const config = {
               },
               {
                 type: 'docSidebar',
+                sidebarId: 'development',
+                label: '软件开发',
+              },
+              {
+                type: 'docSidebar',
                 sidebarId: 'linuxplaySidebar',
                 label: 'Linux 折腾笔记',
               },

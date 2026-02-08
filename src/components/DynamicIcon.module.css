@@ -1,0 +1,9 @@
+.errorIcon {
+    color: #ff6b6b;
+    font-weight: bold;
+}
+
+.loadingIcon {
+    color: #666;
+    opacity: 0.5;
+}

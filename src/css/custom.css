@@ -28,3 +28,70 @@
   --ifm-color-primary-lightest: #ffffff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+
+
+/* Navbar logo */
+.navbar__logo {
+  border-radius: 50% !important;
+  overflow: hidden;
+}
+
+.navbar__logo img {
+  border-radius: 50% !important;
+}
+
+/* Footer - Match HeroPage solid background */
+.footer {
+  border-top: none !important;
+  background-color: rgba(239, 241, 245, 0.95) !important;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  box-shadow: none !important;
+  border-top: 1px solid rgba(220, 138, 120, 0.08) !important;
+  color: #4c4f69 !important;
+}
+
+[data-theme='dark'] .footer {
+  background-color: rgba(30, 30, 46, 0.95) !important;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  box-shadow: none !important;
+  border-top: 1px solid rgba(245, 224, 220, 0.05) !important;
+  color: #cdd6f4 !important;
+}
+
+.footer__title {
+  font-weight: 600;
+  color: #4c4f69 !important;
+}
+
+[data-theme='dark'] .footer__title {
+  color: #cdd6f4 !important;
+}
+
+.footer__link-item {
+  color: #dc8a78 !important;
+  transition: all 0.2s ease;
+  display: inline-block;
+}
+
+.footer__link-item:hover {
+  color: #f38ba8 !important;
+  transform: translateX(4px);
+}
+
+.footer__copyright {
+  color: #6c6f85 !important;
+  opacity: 0.8;
+  font-size: 0.875rem;
+}
+
+[data-theme='dark'] .footer__copyright {
+  color: #a6adc8 !important;
+}
+
+a.footer__link-item:hover {
+  text-decoration: none;
+  opacity: 0.85;
+}
